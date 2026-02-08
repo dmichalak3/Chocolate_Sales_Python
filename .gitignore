@@ -1,4 +1,21 @@
-# Byte-compiled / optimized / DLL files
+# --- Pychace Files ---
 __pycache__/
 *.py[cod]
-*$py.class
+
+# --- Machine Learning Models ---
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# --- Generated Outputs & Artifacts ---
+*.png
+*.jpg
+*.svg
+results.txt
+training_report.txt
+confusion_matrix.png
+
+# Ignore the entire models folder if it only contains generated stuff
+models/
