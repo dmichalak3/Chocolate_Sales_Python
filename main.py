@@ -6,7 +6,8 @@ def main():
     # Define local file paths for the dataset
     data_path = 'data/Chocolate Sales (2).csv'
     
-    # 1. Data Ingestion and Preprocessing
+    # 1. Data Ingestion and Preprocessingpy -m pip install -r requirements.txt
+
     print("--- Initializing data processing pipeline ---")
     df = load_and_clean_data(data_path)
     
