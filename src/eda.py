@@ -123,7 +123,6 @@ def run_eda():
     plt.figure(figsize=(10, 8))
     
     # Calculate correlation only on numeric columns
-    # Note: 'Country' might be excluded if we successfully converted it back to String, which is correct for Pearson corr.
     corr_matrix = df.corr(numeric_only=True)
     
     sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
